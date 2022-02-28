@@ -1,0 +1,29 @@
+You cannot extract elements from the variadic arguments directly. Instead, you access individual arguments using the utility functions in the <cstdarg> header.
+
+Table 9-1 lists these utility functions.
+
+Table 9-1: Utility Functions in the <cstdarg> Header
+
+Function
+
+Description
+
+va_list
+
+Used to declare a local variable representing the variadic arguments
+
+va_start
+
+Enables access to the variadic arguments
+
+va_end
+
+Used to end iteration over the variadic arguments
+
+va_arg
+
+Used to iterate over each element in the variadic arguments
+
+va_copy
+
+Makes a copy of the variadic arguments
